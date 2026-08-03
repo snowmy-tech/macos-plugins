@@ -1,0 +1,17 @@
+{
+  "name": "snowmy-macos",
+  "interface": { "displayName": "snowmy-tech macOS Development" },
+  "plugins": [
+    {
+      "name": "build-macos-apps",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/snowmy-tech/plugins.git",
+        "path": "./plugins/build-macos-apps",
+        "sha": "4c65e8d63ecf5aa9237cfe7877b7db3da937e42a"
+      },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Developer Tools"
+    }
+  ]
+}
